@@ -3,6 +3,7 @@ package hobsons.com.testCases;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import hobsons.com.baseClass.ParentCls;
 import hobsons.com.pages.ApplicationSignUp;
@@ -18,7 +19,7 @@ public class ApplicationSignUpTestCase extends ParentCls {
 	OpenPositions opportunitypage;
 	ApplicationSignUp SignUpForm;
 	supportUtility utility;
-	
+	Logger log = Logger.getLogger(ApplicationSignUpTestCase.class);
 	public ApplicationSignUpTestCase() {
 		super();
 	}
@@ -37,12 +38,16 @@ public class ApplicationSignUpTestCase extends ParentCls {
 	@Test(priority=1,groups= {"Regression"})
 	public void applicationformFillUp() throws Exception
 	{
+		log.info("___ applicationformFillUp test case execution has started____");
 		SignUpForm.applicationform();
+		log.info("___ applicationformFillUp test case execution has ended____");
 	}
 	@Test(priority=2,groups= {"Smoke"})
 	public void RequireFielderrorMessageValidation() throws Exception
 	{
+		log.info("___ RequireFielderrorMessageValidation test case execution has started____");
 		Assert.assertEquals(SignUpForm.requireFieldvalidation(), "Please provide this information.");
+		log.info("___ RequireFielderrorMessageValidation test case execution has ended____");
 	}
 	
 	

@@ -23,8 +23,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import hobsons.com.baseClass.ParentCls;
+
 
 public class supportUtility extends ParentCls {
 
@@ -44,6 +44,7 @@ public class supportUtility extends ParentCls {
 	{
 		driver.findElement(By.xpath("//div[@id='cookienotice']//button[text()='OK']")).click();
 	}
+	
 	
 	public static String readStringFromFile(String filePath) throws Exception {
 	    String fileContent = new String(Files.readAllBytes(Paths.get(filePath)));
