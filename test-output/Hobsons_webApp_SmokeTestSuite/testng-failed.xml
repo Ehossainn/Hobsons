@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hobsons_webApp_SmokeTestSuite]">
+  <test name="SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="hobsons.com.testCases.HomePageTestCases">
+        <methods>
+          <include name="homePageTitle"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- hobsons.com.testCases.HomePageTestCases -->
+      <class name="hobsons.com.testCases.CareerPageTestCases">
+        <methods>
+          <include name="Validatepagetitle"/>
+        </methods>
+      </class> <!-- hobsons.com.testCases.CareerPageTestCases -->
+      <class name="hobsons.com.testCases.OpenPositionTestCases">
+        <methods>
+          <include name="OpenPositionInArlington"/>
+        </methods>
+      </class> <!-- hobsons.com.testCases.OpenPositionTestCases -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Hobsons_webApp_SmokeTestSuite] -->

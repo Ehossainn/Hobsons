@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hobsons_webApp_TestSuite">
+	<listeners>
+		<listener class-name="hobsons.com.utility.ExtentReporter" />
+		<listener class-name="hobsons.com.utility.RetryTransformer" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="hobsons.com.testCases.CareerPageTestCases" />
+			<class name="hobsons.com.testCases.HomePageTestCases" />
+			<class name="hobsons.com.testCases.OpenPositionTestCases" />
+			<class name="hobsons.com.testCases.ApplicationSignUpTestCase" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

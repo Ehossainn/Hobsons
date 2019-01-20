@@ -1,0 +1,23 @@
+Professional Summary
+
+A dynamic IT professional with 6+ years of extensive experience in design, architecture and development of software test Automation solutions and Automation Test Scripts using Selenium, TestNG, Java and Defect Management based on software development/release.
+
+•	Experienced in implementation of different QA methodologies in all phases of Software Development Life Cycle (SDLC) and Test Development Life Cycle (TDLC).
+•	Well versed in reviewing and analyzing the Business requirements and developing Test Plans, Test strategies, Test cases, Test data, Test reports and documentation of Manual and Automation Tests.
+•	Extensive experience in Automation testing, Manual testing, Integration testing, System testing, Smoke testing, Regression testing, Performance testing, Functional testing, and GUI testing.
+•	Expertise in the SCRUM methodology in Agile principles and in Waterfall development environment.
+•	Proficient in using automation tools such as Selenium (Selenium IDE, Selenium RC, and Selenium Expertise Web Driver), JUnit, TestNG, Eclipse.
+•	in designing and implementing Selenium Automation Frameworks using Data Driven, Key Driven, Hybrid, Page Object Model (POM).
+•	Experienced in building tools such as Maven and managing continuous integration, scheduling script execution with Jenkins.
+•	Conversant in identifying the correct GUI elements for creating automation scripts using Selenium locators such as Name, ID, Link Text, CSS Selector and XPath.
+•	Expertise in Grouping of Test Cases, Test Methods and Test Suites for functional and regression testing using the TestNG annotations like Groups, Parameter, Data Provider.
+•	Experienced in configuring the application framework using Apace POI for text extraction from the excel spreadsheets.
+•	Developed Test Scripts to implement Test Cases, Test Scenarios, behavioral features and step definitions for BDD (Behavior Driven Development) using Cucumber.
+•	Performed Cross-Browser and Compatibility Testing to test whether the web applications are working as desired in different browsers and environments.
+•	Performed API testing with postman.
+•	Implementation of parallel execution in the automation framework to do browser compatibility testing, using IE, Chrome and Mozilla.
+•	Effectively involved in Defects logging, tracking and managing Defect Life Cycles using JIRA.
+•	Strong knowledge in SQL, using sub-queries, joins, grouping, views etc.
+•	Good understanding of Core Java and object oriented programming (OOPs) concepts.
+•	Excellent communication skills and ability to work either independently or in a team and to handle multiple tasks in order to meet deadlines and deliverables.
+
